@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "SLPR",
+    "slug": "SLPR",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourusername.SLPR"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "YOUR_EAS_PROJECT_ID"
+      }
+    }
+  }
+}

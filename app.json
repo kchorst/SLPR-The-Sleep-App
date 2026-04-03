@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "SLPR",
+    "slug": "SLPR",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "SLPR needs access to audio for text-to-speech playback",
+        "NSSpeechRecognitionUsageDescription": "SLPR uses speech synthesis for word pronunciation"
+      }
+    },
+    "android": {
+      "package": "com.kchorst.slpr",
+      "permissions": [
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ]
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "8f46ad98-9511-4f46-8ecd-0d598ee9ea3d"
+      }
+    },
+    "owner": "kchorst"
+  }
+}
