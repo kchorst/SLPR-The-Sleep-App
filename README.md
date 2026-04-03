@@ -180,6 +180,19 @@ If you still have no voices:
 - If tunnel mode fails:
   - Prefer LAN: `npx expo start --lan`
 
+### EAS Android build error: `resource color/splashscreen_background not found`
+
+If an EAS Android build fails with:
+
+`AAPT: error: resource color/splashscreen_background not found`
+
+Fix:
+
+1. Ensure `app.json` includes a valid Expo `splash` configuration with `backgroundColor`.
+2. Commit the change.
+3. Re-run the build:
+   - `eas build -p android --profile production`
+
 ### Audio Issues
 1. Check device volume levels
 2. Verify silent mode is handled correctly
