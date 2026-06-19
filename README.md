@@ -2,6 +2,16 @@
 
 SLPR is a cognitive shuffle sleep aid app. It reads randomized words from your personal word bank using system text-to-speech (TTS) to help disrupt coherent thought patterns so you can fall asleep.
 
+## License: Non-Commercial Use Only
+
+This repository contains source-available code and utilities strictly governed by the **PolyForm Noncommercial License 1.0.0**.
+
+* **Allowed:** Free for personal experimentation, individual learning, testing, and academic research.
+* **Prohibited:** Commercial use, corporate deployment, resale, or monetization of this software in a business environment is strictly forbidden.
+
+For the full binding legal text, please see the accompanying [LICENSE.md](LICENSE.md) file.
+
+
 ## How It Works
 
 SLPR uses the "cognitive shuffle" technique - a scientifically-backed method that helps transition your brain from active thinking to restful sleep. The app reads your personalized word list aloud, one word at a time, with configurable gaps between words. This randomization prevents your mind from forming coherent thoughts, allowing you to drift off naturally.
